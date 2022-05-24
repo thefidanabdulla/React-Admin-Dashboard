@@ -514,12 +514,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.75rem;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-10{
   width: 2.5rem;
 }
 
 .w-3{
   width: 0.75rem;
+}
+
+.w-0{
+  width: 0px;
+}
+
+.w-72{
+  width: 18rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .items-center{
@@ -548,6 +564,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-main-bg{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 251 251 / var(--tw-bg-opacity));
 }
 
 .p-3{
@@ -599,8 +625,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(32 35 42 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-secondary-dark-bg{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 55 62 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-main-bg{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 251 251 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px){
+  .md\:static{
+    position: static;
+  }
+
   .md\:ml-3{
     margin-left: 0.75rem;
+  }
+
+  .md\:ml-72{
+    margin-left: 18rem;
   }
 }
