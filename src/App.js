@@ -19,7 +19,6 @@ const App = () => {
                             <button type="button" className='text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white' style={{ background: "blue", borderRadius: "50%" }}>
                                 <FiSettings />
                             </button>
-
                         </TooltipComponent>
                     </div>
                     {activeMenu ? (
@@ -32,7 +31,7 @@ const App = () => {
                         </div>
                     )}
 
-                    <div className={ `dark:bg-main-bg bg-main-bg min-h-screen  w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`}>
+                    <div className={`dark:bg-main-bg bg-main-bg min-h-screen  w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`}>
                         <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full '>
                             <Navbar />
                         </div>
@@ -43,9 +42,9 @@ const App = () => {
                             <Route path='/' element={<Ecommerce />} />
                             <Route path='ecommerce' element={<Ecommerce />} />
 
-                            <Route path='/orders' element={<Orders />} /> 
-                            <Route path='/employees' element={<Employees />} /> 
-                            <Route path='/customers' element={<Customers />} /> 
+                            <Route path='/orders' element={<Orders />} />
+                            <Route path='/employees' element={<Employees />} />
+                            <Route path='/customers' element={<Customers />} />
 
                             <Route path='/kanban' element={<Kanban />} />
                             <Route path='/editor' element={<Editor />} />
