@@ -530,6 +530,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.25rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .block{
   display: block;
 }
@@ -568,6 +588,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-8{
   height: 2rem;
+}
+
+.h-44{
+  height: 11rem;
 }
 
 .min-h-screen{
@@ -610,6 +634,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   resize: both;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-center{
   align-items: center;
 }
@@ -636,6 +664,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
 }
 
 .overflow-auto{
@@ -672,6 +704,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(250 251 251 / var(--tw-bg-opacity));
 }
 
+.bg-hero-pattern{
+  background-image: url('https://demos.wrappixel.com/premium-admin-templates/react/flexy-react/main/static/media/welcome-bg-2x-svg.25338f53.svg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -682,6 +730,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-1{
   padding: 0.25rem;
+}
+
+.p-8{
+  padding: 2rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .py-1{
@@ -714,6 +770,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
+.pt-9{
+  padding-top: 2.25rem;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -728,12 +788,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 14px;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-extrabold{
   font-weight: 800;
 }
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .uppercase{
@@ -766,6 +845,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-400{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.opacity-0{
+  opacity: 0;
 }
 
 .hover\:bg-light-gray:hover{
@@ -827,11 +910,25 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: 0.75rem;
   }
 
+  .md\:w-56{
+    width: 14rem;
+  }
+
   .md\:overflow-hidden{
     overflow: hidden;
   }
 
   .md\:hover\:overflow-auto:hover{
     overflow: auto;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:w-80{
+    width: 20rem;
+  }
+
+  .lg\:flex-nowrap{
+    flex-wrap: nowrap;
   }
 }
