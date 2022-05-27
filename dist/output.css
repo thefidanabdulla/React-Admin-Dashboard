@@ -562,6 +562,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
 .block{
   display: block;
 }
@@ -708,6 +716,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-2xl{
   border-radius: 1rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
 }
 
 .border{
@@ -958,6 +970,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: static;
   }
 
+  .md\:m-10{
+    margin: 2.5rem;
+  }
+
   .md\:mx-6{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -981,6 +997,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:overflow-hidden{
     overflow: hidden;
+  }
+
+  .md\:p-10{
+    padding: 2.5rem;
   }
 
   .md\:hover\:overflow-auto:hover{

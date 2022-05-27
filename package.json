@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-charts": "^20.1.57",
+    "@syncfusion/ej2-react-grids": "^20.1.57",
     "@syncfusion/ej2-react-popups": "^20.1.57",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
