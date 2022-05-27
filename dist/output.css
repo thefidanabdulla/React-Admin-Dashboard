@@ -570,8 +570,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 6rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .block{
   display: block;
+}
+
+.inline{
+  display: inline;
 }
 
 .flex{
@@ -692,6 +704,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-20{
+  gap: 5rem;
 }
 
 .overflow-auto{
@@ -825,6 +841,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-10{
   padding-right: 2.5rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-3xl{
