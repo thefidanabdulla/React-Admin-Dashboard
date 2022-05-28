@@ -506,6 +506,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0.5rem;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.float-right{
+  float: right;
+}
+
 .m-2{
   margin: 0.5rem;
 }
@@ -578,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -596,6 +612,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-2{
@@ -658,12 +678,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.75rem;
 }
 
+.w-screen{
+  width: 100vw;
+}
+
+.w-400{
+  width: 400px;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
 
 .resize{
   resize: both;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .flex-wrap{
@@ -746,6 +778,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-right-width: 1px;
 }
 
+.border-t-1{
+  border-top-width: 1px;
+}
+
 .border-color{
   border-color: rgba(0, 0, 0, 0.1);
 }
@@ -763,6 +799,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-green-400{
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-half-transparent{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-hero-pattern{
